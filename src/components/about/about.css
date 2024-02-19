@@ -1,0 +1,128 @@
+.about{
+    padding-top: 10rem;
+}
+
+.about-container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 4rem;
+}
+
+.about-img {
+    width: 350px;
+    border-radius: 1.5rem;
+    justify-self: center;
+}
+
+.about-info {
+    grid-template-columns: repeat(3, 10rem);
+    margin-bottom: 2rem;
+    gap: 2rem;
+
+}
+
+.about-box {
+    background-color: var(--background-white);
+
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    text-align: center;
+    padding: 1rem 1.25rem;
+}
+
+.about-icon {
+    color: var(--title-color);
+    font-size: 2rem;
+}
+
+.about-title {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.about-subtitle {
+    font-size: 1rem;
+    color: var(--subtitle-color);
+}
+
+.about-description {
+    padding: 0 4rem 0 0;
+    margin-bottom: 2rem;
+    text-align: left;
+    color: var(--subtitle-color);
+}
+
+@media screen and (max-width: 992px) {
+
+
+    .about-container {
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+    }
+
+    .about-img {
+        width: 220px;
+    }
+
+    .about-box {
+        padding: 0.75rem 0.5rem;
+        width: 8rem;
+    }
+
+    .about-icon {
+        font-size: 1rem;
+    }
+
+    .about-title {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .about-subtitle {
+        font-size: 0.8rem;
+    }
+
+    .about-data {
+        text-align: center;
+    }
+
+    .about-info {
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        justify-items: center;
+        gap: 0.5rem;
+
+
+    }
+
+    .about-description {
+        padding: 0 3rem;
+        text-align: center;
+        margin-bottom: 2rem;
+        font-size: 0.8rem;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .about {
+        padding-top: 0;
+    }
+
+    .about-box {
+        width: 100%;
+        padding: 0.3rem;
+    }
+
+    .about-description {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    .about-info {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
