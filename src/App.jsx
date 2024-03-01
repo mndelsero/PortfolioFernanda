@@ -6,9 +6,14 @@ import About from './components/about/About'
 import Skills from './components/skills/Skills'
 import Services from './components/services/Services'
 import Qualifications from './components/qualifications/Qualifications'
+import Testimonials from './components/testimonials/Testimonials'
+import Contact from './components/contact/Contact'
+import Footer from './components/footer/Footer'
+import Scrollup from './components/scrollup/Scrollup'
+import Work from './components/work/Work'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
@@ -19,7 +24,15 @@ function App() {
   <Skills/>
   <Services/>
   <Qualifications/>
+  <Work/>
+  <Testimonials/>
+  <Contact/>
+
 </main>
+<Footer/>
+
+<Scrollup/>
+
     </>
   )
 }
