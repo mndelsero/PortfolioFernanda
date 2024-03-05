@@ -11,6 +11,8 @@ import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import Scrollup from './components/scrollup/Scrollup'
 import Work from './components/work/Work'
+import Experience from './components/experience/Experience'
+import FreeTime from './components/freetime/FreeTime'
 
 function App() {
   
@@ -25,7 +27,9 @@ function App() {
   <Services/>
   <Qualifications/>
   <Work/>
-  <Testimonials/>
+  <Experience/>
+<FreeTime/>
+  {/* <Testimonials/> */}
   <Contact/>
 
 </main>

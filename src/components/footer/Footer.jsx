@@ -14,15 +14,15 @@ const Footer = () => {
 <ul className='footer-list'>
 
     <li>
-        <a href="#about" className='footer-link'>About</a>
+        <a href="#about" className='footer-link'>Sobre Mí</a>
     </li>
 
     <li>
-        <a href="#portfolio" className='footer-link'>Projects</a>
+        <a href="#portfolio" className='footer-link'>Proyectos</a>
     </li>
 
     <li>
-        <a href="#testimonials" className='footer-link'>Testimonials</a>
+        <a href="#services" className='footer-link'>Servicios</a>
     </li>
 
     <li>
@@ -32,11 +32,11 @@ const Footer = () => {
 
 
 <div className="footer-social">
-<a href="" className='footer-social-link' target='_blank'><i className="bx bxl-facebook"></i></a>
+<a href="https://www.facebook.com/mariafernanda.guaquinchay/" className='footer-social-link' target='_blank'><i className="bx bxl-facebook"></i></a>
 
-<a href="" className='footer-social-link' target='_blank'><i className="bx bxl-instagram"></i></a>
+<a href="https://www.instagram.com/fer30bri/" className='footer-social-link' target='_blank'><i className="bx bxl-instagram"></i></a>
 
-<a href="" className='footer-social-link' target='_blank'><i className="bx bxl-gmail"></i></a>
+<a target='_blank' href="mailto:mfguaquinchay123@gmail.com" className='footer-social-link' ><i className="bx bxl-gmail"></i></a>
 
 </div>
 

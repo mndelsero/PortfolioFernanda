@@ -11,7 +11,7 @@ export const projectsData = [
         image: Work1,
         title: "Adicción Sin Drogas",
         category: "Taller",
-        description: "Enseñar de la adicción a todos, para que todos seamos capaces de ayudar!"
+        description: "Líder de un programa de recuperación de adicciones y un grupo de apoyo para familiares de personas con conductas compulsivas. Grupo de adultos mayores de 18 años, modalidad virtual, una vez por semana."
     },
 
     {
@@ -19,7 +19,7 @@ export const projectsData = [
         image: Work2,
         title: "Comunicación Virtual",
         category: "Clase",
-        description: "Clase de tips para mejorar la comunicación virtual en su contexto."
+        description: "Talleres psicoeducativos con modalidad virtual. Grupo reducido de 20 personas, mayores de 18 años. Desarrollo de la resiliencia emocional."
     },
 
     {
@@ -27,7 +27,7 @@ export const projectsData = [
         image: Work3,
         title: "Control de Estrés",
         category: "Taller",
-        description: "Taller para aprender a manejar y entender nuestro estrés."
+        description: "Capacitación y talleres a líderes de grupos juveniles de 18 a 30 años. Modalidad virtual y presencial. Abordaje en la salud mental."
     },
     {
         id: 4,
@@ -41,7 +41,7 @@ export const projectsData = [
         image: Work5,
         title: "Tolerancia a la Frustración",
         category: "Taller",
-        description: "Taller de tips y consejos para aprender a manejar la frustración"
+        description: "Capacitaciones, talleres y charlas sobre gestión de emociones, abordaje en la urgencia, cuidar al que cuida. Grupo de adultos, modalidad presencial."
     },
 
 

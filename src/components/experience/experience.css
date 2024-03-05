@@ -1,0 +1,187 @@
+.exp-filters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.75rem;
+    margin-bottom: 2rem;
+}
+
+.exp-item{
+    cursor: pointer;
+    color: var(--title-color);
+    padding: 0.25rem 0.75rem;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    text-transform: capitalize;
+}
+.exp-item:hover{
+    background-color: var(--title-color);
+    color: var(--background-white);
+}
+
+
+
+.exp-container{
+    grid-template-columns: repeat(2, 250px);
+    gap: 3rem;
+    justify-content: center;
+}
+
+.exp-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--background-white);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1.25rem;
+    border-radius: 1rem;
+
+}
+
+.exp-img{width: 200px;
+border-radius: 1rem;
+margin-bottom: 1rem;
+}
+
+
+.exp-info{
+    text-align: left;
+    width: 200px;
+
+}
+
+.exp-p{
+    font-size: 1rem;
+}
+
+.exp-p-span{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.exp-title{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    width: 200px;
+}
+
+
+.exp-description{
+    font-size: 0.8rem;
+}
+
+.exp-button{
+    background-color: var(--background-white);
+    color: var(--title-color);
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    column-gap: 0.2rem;
+    transition: .4s;
+}
+
+.exp-button-icon{
+    font-size: 0.8rem;
+    transition: .4s;
+}
+
+.exp-button:hover .exp-button-icon{
+    transform: translateX(0.25rem);
+}
+
+.active-exp{
+    background-color: var(--title-color);
+    color: var(--background-white);
+}
+
+@media screen and (max-width: 992px) {
+   .exp-container{
+   gap: 1.25rem;
+   }
+
+   .exp-card{
+    padding: 1rem;
+   }
+   .exp-img{
+    margin-bottom: 0.75rem;
+   }
+   .exp-title{
+    margin-bottom: 0.25rem;
+   }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .exp-container{
+        grid-template-columns: max-content;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .exp-card{
+        display: flex;
+        width: max-content;
+    }
+    .exp-description{
+        font-size: 0.8rem;
+    }
+    .exp-filters{
+        padding-inline: 0.5rem;
+    }
+
+}
+
+
+@media screen and (max-width: 576px) {
+   .exp-container{
+    grid-template-columns: 1fr;
+    padding-inline: 1rem;
+   }
+   .exp-card{
+    width: 70vw;
+   }
+   .exp-img{
+    width: 50vw;
+   }
+   .exp-info{
+    text-align: left;
+    width: 50vw;
+
+}
+
+   .exp-item{
+    font-size: 1rem;
+   }
+   .exp-filters{
+    
+    column-gap: 0.25rem;
+    margin-bottom: 1rem;
+}
+.exp-title{
+    font-size: 1rem;
+}
+.exp-button{
+    font-size: 0.8rem;
+}
+
+}
+
+
+@media screen and (max-width: 350px) {
+    .exp-filters{
+    
+        column-gap: 0.25rem;
+        margin-bottom: 0.5rem;
+    }
+    .exp-item{
+padding-inline: 0.25rem;       }
+
+.exp-container{
+    grid-template-columns: 1fr;
+    padding-inline: 0.5rem;
+   }
+
+}

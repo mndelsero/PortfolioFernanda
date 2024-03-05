@@ -1,14 +1,14 @@
 import React from 'react'
 import "./about.css"
-import AboutImg from "../../assets/IMGCV2.jpg"
+import AboutImg from "/src/assets/imgCV1.jpeg"
 import CV from "/src/assets/CVColor.pdf"
 import Info from './Info'
 
 const About = () => {
     return (
         <section className='about section' id='about'>
-            <h2 className='section-title'>About Me</h2>
-            <span className='section-subtitle'>My Introduction</span>
+            <h2 className='section-title'>Sobre Mí</h2>
+            <span className='section-subtitle'>Me Presento</span>
 
             <div className='about-container container grid'>
                 <img src={AboutImg} alt="" className='about-img' />
@@ -16,7 +16,7 @@ const About = () => {
                 <div className='about-data'>
                     <Info />
 
-                    <p className='about-description'>Frotend Developer.I create websites with UI / UX user interface. I have a year of experience and many clients are happy with the projects carried out</p>
+                    <p className='about-description'> Soy Licenciada en psicología, con una especialidad en el análisis existencial y logoterapia, orientada a la educación, terapias breves y acompañamiento. Poseo conocimientos en la psicología laboral y de las organizaciones, capacitación, selección de personal, recursos humanos y evaluación de desempeño.</p>
 
                     <a href={CV} download="" className='button button-flex'>
                         Download CV

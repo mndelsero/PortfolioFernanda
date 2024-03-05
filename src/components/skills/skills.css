@@ -66,12 +66,26 @@ grid-template-columns: max-content;
 
 }
   }
+
+  @media screen and (max-width: 768px){
+    .skills-container{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        
+        }
+
+    .skills-content{
+        width: 90vw;
+    }
+
+  }
+
  
   @media screen and (max-width: 576px){
 
 
   .skills-container{
-    grid-template-columns: 0.5fr;
+    grid-template-columns: 1fr;
   }
 
   .skills-content{
@@ -119,4 +133,12 @@ grid-template-columns: max-content;
         
         line-height: 0.8rem;
     }
+
+    .skills-data{
+        column-gap: 0;
+    }
+    .skills-box{
+        column-gap: 0.2rem;
+    }
+    .skills-content{width: 95vw;}
   }
