@@ -14,42 +14,42 @@ const FreeTime = () => {
             <div className="freetime-projects grid ">
                 <div className="free-card">
                     <h3 className='free-title'></h3>
-                    <img src={caballito} alt="" className='free-img' />
+                    <img src={caballito} alt="imagen-arte" className='free-img' />
 
 
                 </div>
 
                 <div className="free-card">
                     <h3 className='free-title'> </h3>
-                    <img src={estatuas} alt="" className='free-img' />
+                    <img src={estatuas} alt="imagen-arte" className='free-img' />
 
 
                 </div>
 
                 <div className="free-card">
                     <h3 className='free-title'></h3>
-                    <img src={pueblito} alt="" className='free-img' />
+                    <img src={pueblito} alt="imagen-arte" className='free-img' />
 
 
                 </div>
 
                 <div className="free-card"  >
                     <h3 className='free-title'></h3>
-                    <img src={templo} alt="" className='free-img' />
+                    <img src={templo} alt="imagen-arte" className='free-img' />
 
 
                 </div>
 
                 <div className="free-card"  >
                     <h3 className='free-title'></h3>
-                    <img src={barquito} alt="" className='free-img' />
+                    <img src={barquito} alt="imagen-arte" className='free-img' />
 
 
                 </div>
 
                 <div className="free-card"  >
                     <h3 className='free-title'></h3>
-                    <img src={vina} alt="" className='free-img' />
+                    <img src={vina} alt="imagen-arte" className='free-img' />
 
 
                 </div>

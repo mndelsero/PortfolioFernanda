@@ -8,7 +8,7 @@ const ExperienceItems = ({ item }) => {
 
   return (
     <div className="exp-card" key={item.id}>
-      <img src={item.image} alt="" className='exp-img' />
+      <img src={item.image} alt={item.title} className='exp-img' />
       <h3 className='exp-title'>{item.title}</h3>
 <button href="" className='exp-button' onClick={() => { setToggle(!toogleText) }}>
         Ver Más <i className='bx bx-right-arrow-alt exp-button-icon'></i>

@@ -11,7 +11,7 @@ const About = () => {
             <span className='section-subtitle'>Me Presento</span>
 
             <div className='about-container container grid'>
-                <img src={AboutImg} alt="" className='about-img' />
+                <img src={AboutImg} alt="imagen-frontal" className='about-img' />
 
                 <div className='about-data'>
                     <Info />
