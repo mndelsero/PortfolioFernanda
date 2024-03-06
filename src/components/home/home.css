@@ -75,7 +75,7 @@
 
 
 .home-img{
-    background: url("../../assets/IMGCV2.jpg");
+    background: url("/src/assets/imgCV1.jpeg");
     background-repeat: no-repeat;
     background-position:  center top;
     background-size: cover;

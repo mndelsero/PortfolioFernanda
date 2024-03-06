@@ -13,7 +13,7 @@ const Frontend = () => {
 
                         <div >
                             <h3 className='skills-name'>Responsabilidad</h3>
-                            <span className="skills-level">Excelente</span>
+                            <span className="skills-level">Comprometida</span>
                         </div>
                     </div>
 
@@ -40,7 +40,7 @@ const Frontend = () => {
 
                         <div >
                             <h3 className='skills-name'>Proactiva</h3>
-                            <span className="skills-level">Intermediate</span>
+                            <span className="skills-level">Eficiente</span>
                         </div>
                     </div>
 
@@ -53,7 +53,7 @@ const Frontend = () => {
                         <div >
                             <h3 className='skills-name'>Solución de conflictos
                             </h3>
-                            <span className="skills-level">Bueno</span>
+                            <span className="skills-level">Eficaz</span>
                         </div>
                     </div>
 

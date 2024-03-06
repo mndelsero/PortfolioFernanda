@@ -7,7 +7,7 @@ const Data = () => {
       </h1>
 
       <h3 className='home-subtitle'>Licenciada en Psicología</h3>
-      <p className="home-description">Licenciada en Psicología con una especialidad en análisis existencial y logoterapia. Poseo 3 años de experiencia en la consultoría clínica, atención infanto - juvenil.</p>
+      <p className="home-description">Soy Licenciada en psicología, con una especialidad en el análisis existencial y logoterapia, orientada a la educación, terapias breves y acompañamiento. Poseo conocimientos en la psicología laboral y de las organizaciones, capacitación, selección de personal, recursos humanos y evaluación de desempeño.</p>
 
       <a href="#contact"className='button button-flex'>Saluda!  
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="m21.426 11.095-17-8A1 1 0 0 0 3.03 4.242l1.212 4.849L12 12l-7.758 2.909-1.212 4.849a.998.998 0 0 0 1.396 1.147l17-8a1 1 0 0 0 0-1.81z"/></svg>

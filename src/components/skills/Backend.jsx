@@ -13,7 +13,7 @@ const Backend = () => {
 
                         <div >
                             <h3 className='skills-name'>Gestión por competencias</h3>
-                            <span className="skills-level">Bueno</span>
+                            <span className="skills-level"></span>
                         </div>
                     </div>
 
@@ -22,7 +22,7 @@ const Backend = () => {
 
                         <div >
                             <h3 className='skills-name'>Gestión del capital humano</h3>
-                            <span className="skills-level">Bueno</span>
+                            <span className="skills-level"></span>
                         </div>
                     </div>
 
@@ -31,7 +31,7 @@ const Backend = () => {
 
                         <div >
                             <h3 className='skills-name'>Capacitación</h3>
-                            <span className="skills-level">Bueno</span>
+                            <span className="skills-level"></span>
                         </div>
                     </div>
 
@@ -47,7 +47,7 @@ const Backend = () => {
 
                         <div >
                             <h3 className='skills-name'>Evaluación de desempeño</h3>
-                            <span className="skills-level">Excelente</span>
+                            <span className="skills-level"></span>
                         </div>
                     </div>
 
@@ -56,7 +56,7 @@ const Backend = () => {
 
                         <div >
                             <h3 className='skills-name'>Psicotécnicos</h3>
-                            <span className="skills-level">Avanzado</span>
+                            <span className="skills-level"></span>
                         </div>
                     </div>
                     <div className='skills-data'>
@@ -64,7 +64,7 @@ const Backend = () => {
 
                         <div >
                             <h3 className='skills-name'>Orientación Vocacional</h3>
-                            <span className="skills-level">Excelente</span>
+                            <span className="skills-level"></span>
                         </div>
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import "./about.css"
-import AboutImg from "/src/assets/imgCV1.jpeg"
-import CV from "/src/assets/CVColor.pdf"
+import AboutImg from "/src/assets/IMGCV2.jpg"
+import CV from "/src/assets/CVColor.pdf" 
 import Info from './Info'
 
 const About = () => {
@@ -16,7 +16,7 @@ const About = () => {
                 <div className='about-data'>
                     <Info />
 
-                    <p className='about-description'> Soy Licenciada en psicología, con una especialidad en el análisis existencial y logoterapia, orientada a la educación, terapias breves y acompañamiento. Poseo conocimientos en la psicología laboral y de las organizaciones, capacitación, selección de personal, recursos humanos y evaluación de desempeño.</p>
+                    <p className='about-description'>Licenciada en Psicología con una especialidad en análisis existencial y logoterapia. Poseo 3 años de experiencia en la consultoría clínica, atención infanto - juvenil.     </p>
 
                     <a href={CV} download="" className='button button-flex'>
                         Download CV

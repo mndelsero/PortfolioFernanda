@@ -43,20 +43,7 @@ const Services = () => {
                                     <p className='services-modal-info'>Se evaluó la necesidad de gestionar un espacio de escucha y gestión de emociones dentro de la institución para acompañar a los jóvenes en estos desafíos. Este espacio estuvo abierto y disponible de manera virtual y presencial durante todo el año lectivo 2022 hasta la actualidad, los días martes de 14 a 20hs.  </p>
                                 </li>
 
-                                <li className="services-modal-service">
-                                    <i className='uil uil-check-circle services-modal-icon'></i>
-                                    <p className='services-modal-info'>Control de Stock.</p>
-                                </li>
-
-                                <li className="services-modal-service">
-                                    <i className='uil uil-check-circle services-modal-icon'></i>
-                                    <p className='services-modal-info'> Manejo de fondos y valores.</p>
-                                </li>
-
-                                <li className="services-modal-service">
-                                    <i className='uil uil-check-circle services-modal-icon'></i>
-                                    <p className='services-modal-info'>Proveedores.</p>
-                                </li>
+                               
 
                             </ul>
 
@@ -85,15 +72,31 @@ const Services = () => {
                             <ul className='services-modal-services grid'>
                                 <li className="services-modal-service">
                                     <i className='uil uil-check-circle services-modal-icon'></i>
-                                    <p className='services-modal-info'>Charlas psicoeducativas desde la promoción y prevención de la salud mental. Grupo extendido de más de 100 personas, mayores de 18 años, local e internacional con modalidad virtual.</p>
+                                    <p className='services-modal-info'>HTP</p>
                                 </li>
 
                                 <li className="services-modal-service">
                                     <i className='uil uil-check-circle services-modal-icon'></i>
-                                    <p className='services-modal-info'>Talleres psicoeducativos con modalidad virtual. Grupo reducido de 20 personas, mayores de 18 años. Desarrollo de la resiliencia emocional.</p>
+                                    <p className='services-modal-info'>Persona Bajo la Lluvia</p>
                                 </li>
 
+                                <li className="services-modal-service">
+                                    <i className='uil uil-check-circle services-modal-icon'></i>
+                                    <p className='services-modal-info'>Bender</p>
+                                </li>
 
+                                <li className="services-modal-service">
+                                    <i className='uil uil-check-circle services-modal-icon'></i>
+                                    <p className='services-modal-info'>Pruebas de Personalidad</p>
+                                </li>
+
+                                
+                                <li className="services-modal-service">
+                                    <i className='uil uil-check-circle services-modal-icon'></i>
+                                    <p className='services-modal-info'>Desiderativo</p>
+                                </li>
+
+                               
 
                             </ul>
 
@@ -122,8 +125,10 @@ const Services = () => {
                             <ul className='services-modal-services grid'>
                                 <li className="services-modal-service">
                                     <i className='uil uil-check-circle services-modal-icon'></i>
-                                    <p className='services-modal-info'>Talleres de orientación vocacional, procesos completos de 6 sesiones en espacio comunitario. Espacio de escucha y gestión de emociones, capacitaciones y orientación en general en una institución educativa.</p>
+                                    <p className='services-modal-info'>Proceso completo de 6 sesiones con diferentes técnicas.</p>
                                 </li>
+
+
 
 
                             </ul>
