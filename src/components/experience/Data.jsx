@@ -12,9 +12,9 @@ export const expData = [
         image: Work1,
         title: "SERVICIOS PARA LA FAMILIA SUD",
         category: "Clinica",
-        description: "Atención clínica orientada a lo infanto- juvenil. Tratamiento terapéutico. Realización de perfiles misionales. Procesos psicodiagnósticos. Procesos de orientación vocacional. Realización de informes diagnósticos. Mi mayor desafío ha sido comenzar rápidamente con mi consultorio profesional, ser mi propio jefe por así decirlo y asumir el rol clínico. Me ayudó mucho poder trabajar con un equipo de profesionales dentro de un servicio y así contar con su experiencia en esta tarea. También me está ayudando mucho tener un supervisor de casos el cual me orienta y dirige en la realización del diagnóstico.",
+        description: "Atención clínica orientada a lo infanto- juvenil. Tratamiento terapéutico. Procesos psicodiagnósticos. Procesos de orientación vocacional. Realización de informes diagnósticos. Mi mayor desafío ha sido comenzar rápidamente con mi consultorio profesional y asumir el rol clínico. Me ayudó mucho poder trabajar con un equipo de profesionales dentro de un servicio y así contar con su experiencia en esta tarea. También me está ayudando mucho el tener un supervisor de casos el cual me orienta y dirige en la realización del diagnóstico.",
         date: " Año 2021 hasta la actualidad.",
-        place: "Iglesia de Jesucristo de los santos de los últimos días."
+        place: "Red de Profesionales en un servicio comunitario"
     },
 
     {
@@ -34,7 +34,7 @@ export const expData = [
         category: "Grupal",
         description: " (Programa de recuperación de adicciones) Capacitación y gestión del Programa de Resiliencia emocional.",
         date: "Año 2020-2022. ",
-        place: "Iglesia de Jesucristo de los santos de los últimos días."
+        place: "Red de Profesionales en un servicio comunitario"
     },
     {
         id: 4,

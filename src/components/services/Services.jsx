@@ -67,7 +67,7 @@ const Services = () => {
 
                             <h3 className='services-modal-title'>Evaluacion Psicotécnica</h3>
 
-                            <p className='services-modal-description'>Julio-noviembre 2021</p>
+                            <p className='services-modal-description'></p>
 
                             <ul className='services-modal-services grid'>
                                 <li className="services-modal-service">
@@ -120,7 +120,7 @@ const Services = () => {
 
                             <h3 className='services-modal-title'>Orientación Vocacional</h3>
 
-                            <p className='services-modal-description'> Marzo- noviembre 2023</p>
+                            <p className='services-modal-description'> </p>
 
                             <ul className='services-modal-services grid'>
                                 <li className="services-modal-service">
@@ -153,19 +153,24 @@ const Services = () => {
 
                             <h3 className='services-modal-title'>Capacitaciones y Talleres</h3>
 
-                            <p className='services-modal-description'>Julio- noviembre 2022: </p>
+                            <p className='services-modal-description'> </p>
 
                             <ul className='services-modal-services grid'>
                                 <li className="services-modal-service">
                                     <i className='uil uil-check-circle services-modal-icon'></i>
-                                    <p className='services-modal-info'>Capacitaciones, talleres y charlas sobre gestión de emociones, abordaje en la urgencia, cuidar al que cuida. Grupo de adultos, modalidad presencial.</p>
+                                    <p className='services-modal-info'>Capacitacion del Personal</p>
                                 </li>
 
                                 <li className="services-modal-service">
                                     <i className='uil uil-check-circle services-modal-icon'></i>
-                                    <p className='services-modal-info'>Capacitación y talleres a líderes de grupos juveniles de 18 a 30 años. Modalidad virtual y presencial. Abordaje en la salud mental.</p>
+                                    <p className='services-modal-info'>Talleres de Interacción</p>
                                 </li>
 
+
+                                <li className="services-modal-service">
+                                    <i className='uil uil-check-circle services-modal-icon'></i>
+                                    <p className='services-modal-info'>Charlas psico-educativas</p>
+                                </li>
 
 
                             </ul>
